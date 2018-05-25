@@ -1,0 +1,45 @@
+{
+    "name": "flagrow/direct-links",
+    "description": "Adds direct links to various Flarum actions",
+    "keywords": [
+        "extension",
+        "flarum",
+        "flagrow",
+        "direct",
+        "links"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flagrow/direct-links/issues",
+        "source": "https://github.com/flagrow/direct-links"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flagrow Direct Links",
+            "icon": {
+                "name": "link",
+                "backgroundColor": "#f4f4f4",
+                "color": "#5f4bb6"
+            }
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/12452-flagrow-direct-links-links-for-login-and-new-discussion"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Flagrow\\DirectLinks\\": "src/"
+        }
+    }
+}
