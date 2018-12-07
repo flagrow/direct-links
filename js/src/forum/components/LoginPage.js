@@ -1,4 +1,4 @@
-import RedirectToHomeAndOpenModalPage from 'flagrow/direct-links/components/RedirectToHomeAndOpenModalPage';
+import RedirectToHomeAndOpenModalPage from './RedirectToHomeAndOpenModalPage';
 import LogInModal from 'flarum/components/LogInModal';
 
 export default class LoginPage extends RedirectToHomeAndOpenModalPage {

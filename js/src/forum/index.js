@@ -1,8 +1,8 @@
 import {extend} from 'flarum/extend';
 import app from 'flarum/app';
-import LoginPage from 'flagrow/direct-links/components/LoginPage';
-import SignupPage from 'flagrow/direct-links/components/SignupPage';
-import ComposerPage from 'flagrow/direct-links/components/ComposerPage';
+import LoginPage from './components/LoginPage';
+import SignupPage from './components/SignupPage';
+import ComposerPage from './components/ComposerPage';
 
 app.initializers.add('flagrow-direct-links', () => {
     app.routes.flagrowDirectLinksLogin = {

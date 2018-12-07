@@ -22,24 +22,19 @@
         "source": "https://github.com/flagrow/direct-links"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.7"
+        "flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
         "flarum-extension": {
             "title": "Flagrow Direct Links",
             "icon": {
-                "name": "link",
+                "name": "fas fa-link",
                 "backgroundColor": "#f4f4f4",
                 "color": "#5f4bb6"
             }
         },
         "flagrow": {
-            "discuss": "https://discuss.flarum.org/d/12452-flagrow-direct-links-links-for-login-and-new-discussion"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Flagrow\\DirectLinks\\": "src/"
+            "discuss": "https://discuss.flarum.org/d/12452"
         }
     }
 }
