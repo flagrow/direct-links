@@ -4,11 +4,10 @@
 
 This extension adds direct links to various Flarum actions:
 
-- `/login` will redirect to homepage and open the Log In modal
+- `/login` will redirect to homepage and open the Log In modal. Additionally, you can pass `?identification=` and `?password=` parameters to pre-fill the login.
 - `/signup` will redirect to homepage and open the Sign Up modal
-- `/composer` will redirect to homepage and open the new discussion composer box
+- `/composer` will redirect to homepage and open the new discussion composer box. Additionally, you can pass `?title=`, `?content=` and `?tag=slug` parameters to define the default values in the editor.
 
-Additionally, you can pass `?title=`, `?content=` and `?tag=slug` parameters to `/composer` to define the default values in the editor.
 Useful for share features or bookmarklets.
 
 If you hit `/composer` while logged out, you will be prompted for login.
